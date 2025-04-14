@@ -10,11 +10,78 @@
         Title="MyAvaloniaApp">
 
     <Design.DataContext>
-        <!-- This only sets the DataContext for the previewer in an IDE,
-             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <DockPanel>
+        <!-- Tab buttons -->
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="5" Spacing="5">
+            <Button Name="ClientTabButton" Content="Client" Width="100"/>
+            <Button Name="ServerTabButton" Content="Server" Width="100"/>
+            <Button Name="LogTabButton" Content="Log" Width="100"/>
+        </StackPanel>
 
+        <!-- Client View -->
+        <StackPanel Name="ClientView" Margin="10" Spacing="10" IsVisible="False">
+            <StackPanel Orientation="Horizontal" Spacing="5">
+                <TextBox Name="ClientUriInput" Watermark="Enter URI/URL" Width="400"/>
+                <Button Name="SendButton" Content="Send" Width="100"/>
+            </StackPanel>
+            
+            <!-- Fixed Grid with proper spacing -->
+            <Grid RowDefinitions="Auto,*" ColumnDefinitions="*">
+                <TextBlock Text="Request JSON:" Grid.Row="0" Margin="0,0,0,5"/>
+                <TextBox Name="RequestJsonInput" AcceptsReturn="True" TextWrapping="Wrap" 
+                         Height="150" Grid.Row="1"/>
+            </Grid>
+            
+            <Grid RowDefinitions="Auto,*" ColumnDefinitions="*">
+                <TextBlock Text="Response:" Grid.Row="0" Margin="0,0,0,5"/>
+                <TextBox Name="ResponseOutput" IsReadOnly="True" AcceptsReturn="True" 
+                         TextWrapping="Wrap" Height="150" Grid.Row="1"/>
+            </Grid>
+        </StackPanel>
+
+        <!-- Server View -->
+        <StackPanel Name="ServerView" Margin="10" Spacing="10" IsVisible="False">
+            <StackPanel Orientation="Horizontal" Spacing="5">
+                <TextBox Name="PortInput" Watermark="Enter Port" Width="100"/>
+                <Button Name="StartServerButton" Content="Start Server" Width="100"/>
+                <TextBox Name="ServerStatusText" IsReadOnly="True" Text="Offline" 
+                         Width="100" TextAlignment="Center"/>
+            </StackPanel>
+            
+            <Grid RowDefinitions="Auto,*" ColumnDefinitions="*">
+                <TextBlock Text="Request Log:" Grid.Row="0" Margin="0,0,0,5"/>
+                <TextBox Name="RequestLogOutput" IsReadOnly="True" AcceptsReturn="True" 
+                         TextWrapping="Wrap" Height="300" Grid.Row="1"/>
+            </Grid>
+        </StackPanel>
+
+        <!-- Log View -->
+        <StackPanel Name="LogView" Margin="10" Spacing="10" IsVisible="False">
+            <StackPanel Orientation="Horizontal" Spacing="20">
+                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*">
+                    <TextBlock Text="Total Requests:" Grid.Row="0" Grid.Column="0" Margin="0,0,0,5"/>
+                    <TextBox Name="TotalRequestsText" IsReadOnly="True" Grid.Row="0" Grid.Column="1" Width="150" Margin="0,0,0,5"/>
+                    
+                    <TextBlock Text="GET/POST:" Grid.Row="1" Grid.Column="0"/>
+                    <TextBox Name="RequestTypeStatsText" IsReadOnly="True" Grid.Row="1" Grid.Column="1" Width="150"/>
+                </Grid>
+                
+                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*">
+                    <TextBlock Text="Avg Response Time:" Grid.Row="0" Grid.Column="0" Margin="0,0,0,5"/>
+                    <TextBox Name="AvgResponseTimeText" IsReadOnly="True" Grid.Row="0" Grid.Column="1" Width="150"/>
+                </Grid>
+            </StackPanel>
+            
+            <Grid RowDefinitions="Auto,*" ColumnDefinitions="*">
+                <TextBlock Text="Full Log:" Grid.Row="0" Margin="0,0,0,5"/>
+                <TextBox Name="FullLogOutput" IsReadOnly="True" AcceptsReturn="True" 
+                         TextWrapping="Wrap" Height="300" Grid.Row="1"/>
+            </Grid>
+            
+            <Button Name="DownloadLogButton" Content="Download Log" HorizontalAlignment="Right" Width="120" Margin="0,10,0,0"/>
+        </StackPanel>
+    </DockPanel>
 </Window>
