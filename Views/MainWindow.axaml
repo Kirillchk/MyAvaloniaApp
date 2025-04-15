@@ -46,7 +46,7 @@
         <StackPanel Name="ServerView" Margin="10" Spacing="10" IsVisible="False">
             <StackPanel Orientation="Horizontal" Spacing="5">
                 <TextBox Name="PortInput" Watermark="Enter Port" Width="100"/>
-                <Button Name="StartServerButton" Content="Start Server" Width="100"/>
+                <Button Name="StartServerButton" Content="Start server" Width="100"/>
                 <TextBox Name="ServerStatusText" IsReadOnly="True" Text="Offline" 
                          Width="100" TextAlignment="Center"/>
             </StackPanel>
