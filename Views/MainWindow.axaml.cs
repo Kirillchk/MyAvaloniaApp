@@ -2,7 +2,10 @@ using System;
 using System.Net;
 using System.Threading;
 using Avalonia.Controls;
+using Tmds.DBus.Protocol;
 namespace MyAvaloniaApp.Views;
+using System.Text.RegularExpressions;
+using Avalonia.Data.Converters;
 
 public partial class MainWindow : Window
 {
@@ -28,59 +31,61 @@ public partial class MainWindow : Window
 			};
 			bool isServerOnline = false;
 			StartServerButton.Click += (s, e) => {
-				isServerOnline = !isServerOnline;
-				ServerStatusText.Text = isServerOnline?"Online":"Offline";
-				StartServerButton.Content = isServerOnline?"Stop server":"Start server";
-				if (isServerOnline)
-					startServer();
-				else 
-					stopServer();
+				if(validatePort() || isServerOnline){
+					isServerOnline = !isServerOnline;
+					ServerStatusText.Text = isServerOnline?"Online":"Offline";
+					StartServerButton.Content = isServerOnline?"Stop server":"Start server";
+					if (isServerOnline)
+						startServer();
+					else 
+						stopServer();
+				}
 			};
 		#endregion
     }
 	#region Server
-		volatile bool runServer = true;
-		Thread? serverThread;
 		HttpListener? listener;
-
-		void startServer() {
-			runServer = true;
-			listener = new HttpListener();
-			listener.Prefixes.Add("http://localhost:8080/");
-			listener.Start();
-			
-			serverThread = new Thread(() => {
-				while (runServer)
-				{
-					try {
-						HttpListenerContext context = listener.GetContext();
-						string response = context.Request.HttpMethod == "GET" 
-							? "GET received" 
-							: "SET received";
-						byte[] buffer = System.Text.Encoding.UTF8.GetBytes(response);
-						context.Response.ContentLength64 = buffer.Length;
-						context.Response.OutputStream.Write(buffer, 0, buffer.Length);
-						context.Response.Close();
-					}
-					catch {
-						if (!runServer) break;
-					}
-				}
-			}) { IsBackground = true };
-			
-			serverThread.Start();
+		bool validatePort() 
+		{
+			string pattern = @"^(0|[1-9]\d{0,3}|[1-5]\d{4}|6[0-4]\d{3}|65[0-4]\d{2}|655[0-2]\d|6553[0-5])$";
+			return Regex.IsMatch(PortInput.Text, pattern);
 		}
-
-		void stopServer() {
-			runServer = false;
-			try {
-				listener?.Stop();
+		async void startServer() {
+			listener = new HttpListener();
+			listener.Prefixes.Add($"http://localhost:{PortInput.Text}/");
+			listener?.Start();
+			RequestLogOutput.Text += "Started server\n";
+			try
+			{
+				while (listener.IsListening)
+					ProcessRequest(await listener.GetContextAsync());
 			}
-			catch (ObjectDisposedException){}
-			serverThread?.Join();
+			catch {}
+		}
+		private async void ProcessRequest(HttpListenerContext context)
+		{
+			try
+			{
+        		var request = context.Request;
+				RequestLogOutput.Text += 
+					$"Method: {request.HttpMethod}\n" +
+                    $"URL: {request.Url}\n";
+				string responseString = context.Request.HttpMethod == "GET" ? "GET received" : "POST received";;
+				byte[] buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
+				
+				context.Response.ContentLength64 = buffer.Length;
+				await context.Response.OutputStream.WriteAsync(buffer, 0, buffer.Length);
+				context.Response.Close();
+			}
+			catch
+			{
+				context.Response.StatusCode = 500;
+				context.Response.Close();
+			}
+		}
+		void stopServer() {
+			listener?.Stop();
 			listener?.Close();
-			listener = null;
-			serverThread = null;
 		}
 	#endregion
 }
