@@ -25,7 +25,8 @@
         <StackPanel Name="ClientView" Margin="10" Spacing="10" IsVisible="False">
             <StackPanel Orientation="Horizontal" Spacing="5">
                 <TextBox Name="ClientUriInput" Watermark="Enter URL" Width="400"/>
-                <Button Name="SendButton" Content="Send" Width="100"/>
+                <Button Name="SendButtonGET" Content="Send GET" Width="100"/>
+                <Button Name="SendButtonPOST" Content="Send POST" Width="100"/>
             </StackPanel>
             
             <!-- Fixed Grid with proper spacing -->

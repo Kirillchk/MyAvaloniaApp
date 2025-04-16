@@ -7,6 +7,9 @@ namespace MyAvaloniaApp.Views;
 using System.Text.RegularExpressions;
 using Avalonia.Data.Converters;
 using System.IO;
+using System.Net.Http;
+using System.Threading.Tasks;
+
 public partial class MainWindow : Window
 {
 	public MainWindow()
@@ -40,6 +43,9 @@ public partial class MainWindow : Window
 					else 
 						stopServer();
 				}
+			};
+			SendButton.Click += async (s, e) => {
+				await SendRequest(ClientUriInput.Text??"sexasfgfdzdscv fdv");
 			};
 		#endregion
     }
@@ -100,6 +106,17 @@ public partial class MainWindow : Window
 		}
 	#endregion
 	#region Client
-
+	HttpClient client = new();
+	async Task SendRequest(string URL){
+		try {
+			HttpResponseMessage responce = await client.GetAsync(URL);
+			responce.EnsureSuccessStatusCode();
+			string result = await responce.Content.ReadAsStringAsync();
+			ResponseOutput.Text += result;
+		} catch (Exception ex) {
+			ResponseOutput.Text += ex;
+		}
+		ResponseOutput.Text += "\n";
+	}
 	#endregion
 }

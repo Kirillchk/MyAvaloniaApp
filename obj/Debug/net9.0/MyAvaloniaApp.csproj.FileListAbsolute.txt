@@ -133,3 +133,4 @@ E:\code\MyAvaloniaApp\obj\Debug\net9.0\refint\Avalonia\MyAvaloniaApp.dll
 E:\code\MyAvaloniaApp\obj\Debug\net9.0\MyAvalon.9DF80BA1.Up2Date
 E:\code\MyAvaloniaApp\obj\Debug\net9.0\MyAvaloniaApp.genruntimeconfig.cache
 E:\code\MyAvaloniaApp\obj\Debug\net9.0\ref\MyAvaloniaApp.dll
+D:\code\avalonia because why not\MyAvaloniaApp\obj\Debug\net9.0\MyAvaloniaApp.sourcelink.json
