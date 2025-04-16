@@ -9,6 +9,8 @@ using Avalonia.Data.Converters;
 using System.IO;
 using System.Net.Http;
 using System.Threading.Tasks;
+using System.Net.Http.Json;
+using System.Text.Json;
 
 public partial class MainWindow : Window
 {
@@ -44,9 +46,12 @@ public partial class MainWindow : Window
 						stopServer();
 				}
 			};
-			SendButton.Click += async (s, e) => {
-				await SendRequest(ClientUriInput.Text??"sexasfgfdzdscv fdv");
+			SendButtonGET.Click += async (s, e) => {
+				await SendRequestGET(ClientUriInput.Text??"sexasfgfdzdscv fdv");
 			};
+			SendButtonPOST.Click += async (s, e) => {
+
+			}
 		#endregion
     }
 	#region Server
@@ -107,7 +112,7 @@ public partial class MainWindow : Window
 	#endregion
 	#region Client
 	HttpClient client = new();
-	async Task SendRequest(string URL){
+	async Task SendRequestGET(string URL){
 		try {
 			HttpResponseMessage responce = await client.GetAsync(URL);
 			responce.EnsureSuccessStatusCode();
@@ -117,6 +122,11 @@ public partial class MainWindow : Window
 			ResponseOutput.Text += ex;
 		}
 		ResponseOutput.Text += "\n";
+	}
+	async Task SendRequestPOST(string URL){
+		string nedoJSON = RequestJsonInput.Text;
+		if(JsonDocument.TryParseValue(ref nedoJSON, out JsonDocument json))
+		client.PostAsJsonAsync(URL, json);
 	}
 	#endregion
 }
