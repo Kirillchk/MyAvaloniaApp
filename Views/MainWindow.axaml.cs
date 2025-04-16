@@ -6,7 +6,7 @@ using Tmds.DBus.Protocol;
 namespace MyAvaloniaApp.Views;
 using System.Text.RegularExpressions;
 using Avalonia.Data.Converters;
-
+using System.IO;
 public partial class MainWindow : Window
 {
 	public MainWindow()
@@ -60,7 +60,9 @@ public partial class MainWindow : Window
 				while (listener.IsListening)
 					ProcessRequest(await listener.GetContextAsync());
 			}
-			catch {}
+			catch (Exception ex) {
+				RequestLogOutput.Text += ex;
+			}
 		}
 		private async void ProcessRequest(HttpListenerContext context)
 		{
@@ -68,12 +70,21 @@ public partial class MainWindow : Window
 			{
         		var request = context.Request;
 				RequestLogOutput.Text += 
-					$"Method: {request.HttpMethod}\n" +
+					$"\nMethod: {request.HttpMethod}\n" +
                     $"URL: {request.Url}\n";
 				string responseString = context.Request.HttpMethod == "GET" ? "GET received" : "POST received";;
 				byte[] buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
-				
 				context.Response.ContentLength64 = buffer.Length;
+				string jsonBody;
+				try {
+					using (var reader = new StreamReader(context.Request.InputStream, context.Request.ContentEncoding))
+					{
+						jsonBody = reader.ReadToEnd();
+						RequestLogOutput.Text += jsonBody;
+					}
+				} catch (Exception ex) {
+					RequestLogOutput.Text += ex;
+				}
 				await context.Response.OutputStream.WriteAsync(buffer, 0, buffer.Length);
 				context.Response.Close();
 			}
@@ -87,5 +98,8 @@ public partial class MainWindow : Window
 			listener?.Stop();
 			listener?.Close();
 		}
+	#endregion
+	#region Client
+
 	#endregion
 }
