@@ -11,12 +11,15 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Net.Http.Json;
 using System.Text.Json;
-
+using LiveChartsCore;
+using LiveChartsCore.SkiaSharpView;
+using MyAvaloniaApp.ViewModels;
 public partial class MainWindow : Window
 {
 	public MainWindow()
     {
         InitializeComponent();
+        DataContext = new MainWindowViewModel();
 		#region AvaloniaBinds
 			ClientView.IsVisible = true;
 			ClientTabButton.Click += (s, e) => {
@@ -47,25 +50,28 @@ public partial class MainWindow : Window
 				}
 			};
 			SendButtonGET.Click += async (s, e) => {
-				await SendRequestGET(ClientUriInput.Text??"sexasfgfdzdscv fdv");
+				await SendRequestGET(ClientUriInput.Text??"musor");
 			};
 			SendButtonPOST.Click += async (s, e) => {
-
-			}
+				await SendRequestPOST(ClientUriInput.Text??"musor");
+			};
 		#endregion
     }
 	#region Server
 		HttpListener? listener;
+		DateTime serverStarted;
+		ulong zaprosov = 0;
 		bool validatePort() 
 		{
 			string pattern = @"^(0|[1-9]\d{0,3}|[1-5]\d{4}|6[0-4]\d{3}|65[0-4]\d{2}|655[0-2]\d|6553[0-5])$";
-			return Regex.IsMatch(PortInput.Text, pattern);
+			return Regex.IsMatch(PortInput.Text??"musor", pattern);
 		}
 		async void startServer() {
 			listener = new HttpListener();
 			listener.Prefixes.Add($"http://localhost:{PortInput.Text}/");
 			listener?.Start();
 			RequestLogOutput.Text += "Started server\n";
+			serverStarted = DateTime.Now;
 			try
 			{
 				while (listener.IsListening)
@@ -83,7 +89,15 @@ public partial class MainWindow : Window
 				RequestLogOutput.Text += 
 					$"\nMethod: {request.HttpMethod}\n" +
                     $"URL: {request.Url}\n";
-				string responseString = context.Request.HttpMethod == "GET" ? "GET received" : "POST received";;
+				string responseString = "Not suported";
+				zaprosov++;
+				if (context.Request.HttpMethod == "GET") {
+                	TimeSpan uptime = DateTime.Now - serverStarted; 
+					responseString = "\nrequests in total:" + zaprosov;
+					responseString += $"\ntotal time {uptime:hh\\:mm\\:ss}";
+				} else if(context.Request.HttpMethod == "POST") {
+					responseString = "\nunique id:" + zaprosov;
+				}
 				byte[] buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
 				context.Response.ContentLength64 = buffer.Length;
 				string jsonBody;
@@ -124,9 +138,17 @@ public partial class MainWindow : Window
 		ResponseOutput.Text += "\n";
 	}
 	async Task SendRequestPOST(string URL){
-		string nedoJSON = RequestJsonInput.Text;
-		if(JsonDocument.TryParseValue(ref nedoJSON, out JsonDocument json))
-		client.PostAsJsonAsync(URL, json);
+		try {
+			var jsonDoc = JsonDocument.Parse(RequestJsonInput.Text??"musor");
+			HttpResponseMessage response = await client.PostAsJsonAsync(URL, jsonDoc);
+			ResponseOutput.Text += await response.Content.ReadAsStringAsync();;
+		} catch (Exception ex) {
+			ResponseOutput.Text += ex;
+		}
+		ResponseOutput.Text += "\n";
 	}
+	#endregion
+	#region Logs
+	
 	#endregion
 }

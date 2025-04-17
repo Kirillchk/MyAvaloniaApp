@@ -134,3 +134,7 @@ E:\code\MyAvaloniaApp\obj\Debug\net9.0\MyAvalon.9DF80BA1.Up2Date
 E:\code\MyAvaloniaApp\obj\Debug\net9.0\MyAvaloniaApp.genruntimeconfig.cache
 E:\code\MyAvaloniaApp\obj\Debug\net9.0\ref\MyAvaloniaApp.dll
 D:\code\avalonia because why not\MyAvaloniaApp\obj\Debug\net9.0\MyAvaloniaApp.sourcelink.json
+E:\code\MyAvaloniaApp\bin\Debug\net9.0\LiveChartsCore.dll
+E:\code\MyAvaloniaApp\bin\Debug\net9.0\LiveChartsCore.SkiaSharpView.dll
+E:\code\MyAvaloniaApp\bin\Debug\net9.0\LiveChartsCore.SkiaSharpView.Avalonia.dll
+E:\code\MyAvaloniaApp\bin\Debug\net9.0\SkiaSharp.HarfBuzz.dll

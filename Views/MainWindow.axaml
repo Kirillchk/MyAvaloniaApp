@@ -24,7 +24,7 @@
         <!-- Client View -->
         <StackPanel Name="ClientView" Margin="10" Spacing="10" IsVisible="False">
             <StackPanel Orientation="Horizontal" Spacing="5">
-                <TextBox Name="ClientUriInput" Watermark="Enter URL" Width="400"/>
+                <TextBox Name="ClientUriInput" Watermark="Enter URL" Text="http://localhost:1234/" Width="400"/>
                 <Button Name="SendButtonGET" Content="Send GET" Width="100"/>
                 <Button Name="SendButtonPOST" Content="Send POST" Width="100"/>
             </StackPanel>
@@ -32,7 +32,7 @@
             <!-- Fixed Grid with proper spacing -->
             <Grid RowDefinitions="Auto,*" ColumnDefinitions="*">
                 <TextBlock Text="Request JSON:" Grid.Row="0" Margin="0,0,0,5"/>
-                <TextBox Name="RequestJsonInput" AcceptsReturn="True" TextWrapping="Wrap" 
+                <TextBox Name="RequestJsonInput" AcceptsReturn="True" TextWrapping="Wrap" Text="aaaaa"
                          Height="150" Grid.Row="1"/>
             </Grid>
             
@@ -61,6 +61,7 @@
 
         <!-- Log View -->
         <StackPanel Name="LogView" Margin="10" Spacing="10" IsVisible="False">
+
             <StackPanel Orientation="Horizontal" Spacing="20">
                 <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*">
                     <TextBlock Text="Total Requests:" Grid.Row="0" Grid.Column="0" Margin="0,0,0,5"/>
