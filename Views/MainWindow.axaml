@@ -3,6 +3,8 @@
         xmlns:vm="using:MyAvaloniaApp.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
+		xmlns:vms="using:ViewModelsSamples.Lines.Straight"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="MyAvaloniaApp.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
@@ -61,7 +63,6 @@
 
         <!-- Log View -->
         <StackPanel Name="LogView" Margin="10" Spacing="10" IsVisible="False">
-
             <StackPanel Orientation="Horizontal" Spacing="20">
                 <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*">
                     <TextBlock Text="Total Requests:" Grid.Row="0" Grid.Column="0" Margin="0,0,0,5"/>
@@ -76,11 +77,11 @@
                     <TextBox Name="AvgResponseTimeText" IsReadOnly="True" Grid.Row="0" Grid.Column="1" Width="150"/>
                 </Grid>
             </StackPanel>
-            
+			<lvc:CartesianChart Series="{Binding Series}" Height="300" Background="LightGray"/>
             <Grid RowDefinitions="Auto,*" ColumnDefinitions="*">
                 <TextBlock Text="Full Log:" Grid.Row="0" Margin="0,0,0,5"/>
                 <TextBox Name="FullLogOutput" IsReadOnly="True" AcceptsReturn="True" 
-                         TextWrapping="Wrap" Height="300" Grid.Row="1"/>
+                        TextWrapping="Wrap" Height="300" Grid.Row="1"/>
             </Grid>
             
             <Button Name="DownloadLogButton" Content="Download Log" HorizontalAlignment="Right" Width="120" Margin="0,10,0,0"/>

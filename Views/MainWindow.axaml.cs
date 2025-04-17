@@ -1,9 +1,9 @@
+namespace MyAvaloniaApp.Views;
 using System;
 using System.Net;
 using System.Threading;
 using Avalonia.Controls;
 using Tmds.DBus.Protocol;
-namespace MyAvaloniaApp.Views;
 using System.Text.RegularExpressions;
 using Avalonia.Data.Converters;
 using System.IO;
@@ -16,10 +16,12 @@ using LiveChartsCore.SkiaSharpView;
 using MyAvaloniaApp.ViewModels;
 public partial class MainWindow : Window
 {
+
 	public MainWindow()
     {
         InitializeComponent();
         DataContext = new MainWindowViewModel();
+		data = (MainWindowViewModel)DataContext;
 		#region AvaloniaBinds
 			ClientView.IsVisible = true;
 			ClientTabButton.Click += (s, e) => {
@@ -36,6 +38,7 @@ public partial class MainWindow : Window
 				ClientView.IsVisible = false;
 				ServerView.IsVisible = false;
 				LogView.IsVisible = true;
+				ChangeChaCha();
 			};
 			bool isServerOnline = false;
 			StartServerButton.Click += (s, e) => {
@@ -149,6 +152,11 @@ public partial class MainWindow : Window
 	}
 	#endregion
 	#region Logs
-	
+	MainWindowViewModel data;
+	void ChangeChaCha(){
+		double[] zeros = new double[60];
+		Array.Fill(zeros, 0);
+		data.Series[0].Values = zeros;
+	}
 	#endregion
 }
