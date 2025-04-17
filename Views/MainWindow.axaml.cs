@@ -14,14 +14,34 @@ using System.Text.Json;
 using LiveChartsCore;
 using LiveChartsCore.SkiaSharpView;
 using MyAvaloniaApp.ViewModels;
+using System.Linq;
+using System.Collections.Generic;
+using LiveChartsCore.SkiaSharpView.Painting;
+using Avalonia.Threading;
+
 public partial class MainWindow : Window
 {
-
+	private DispatcherTimer timer;
 	public MainWindow()
     {
         InitializeComponent();
-        DataContext = new MainWindowViewModel();
-		data = (MainWindowViewModel)DataContext;
+		zeros = new double[60];
+		Array.Fill(zeros, 0);
+		MyChart.Series = [ 
+			new LineSeries<double>
+			{
+				Values = zeros,
+				Fill = null,
+				GeometrySize = 0,
+				LineSmoothness = 0 
+			}
+		];
+		timer = new();
+    	timer.Interval = TimeSpan.FromMilliseconds(1000);
+		timer.Tick += (sender, e) =>{
+			ChangeChart();
+		};
+		timer.Start();
 		#region AvaloniaBinds
 			ClientView.IsVisible = true;
 			ClientTabButton.Click += (s, e) => {
@@ -38,7 +58,6 @@ public partial class MainWindow : Window
 				ClientView.IsVisible = false;
 				ServerView.IsVisible = false;
 				LogView.IsVisible = true;
-				ChangeChaCha();
 			};
 			bool isServerOnline = false;
 			StartServerButton.Click += (s, e) => {
@@ -94,6 +113,7 @@ public partial class MainWindow : Window
                     $"URL: {request.Url}\n";
 				string responseString = "Not suported";
 				zaprosov++;
+				chartValue++;
 				if (context.Request.HttpMethod == "GET") {
                 	TimeSpan uptime = DateTime.Now - serverStarted; 
 					responseString = "\nrequests in total:" + zaprosov;
@@ -152,11 +172,26 @@ public partial class MainWindow : Window
 	}
 	#endregion
 	#region Logs
-	MainWindowViewModel data;
-	void ChangeChaCha(){
-		double[] zeros = new double[60];
-		Array.Fill(zeros, 0);
-		data.Series[0].Values = zeros;
+	static double[] zeros;
+	int chartValue = 0;
+	void ChangeChart()
+	{
+		LineSeries<double> oldChart = (LineSeries<double>)MyChart.Series.First();
+		Queue<double> queue = new((double[])oldChart.Values);
+		queue.Dequeue();
+		queue.Enqueue(chartValue);
+		double[] newChartArray = queue.ToArray();
+		MyChart.Series = [ 
+			new LineSeries<double>
+			{
+				Values = newChartArray,
+       			Stroke = new SolidColorPaint(SkiaSharp.SKColors.Red) { StrokeThickness = 8 },
+				Fill = null,
+				GeometrySize = 0,
+				LineSmoothness = 0 
+			}
+		];
+		chartValue = 0;
 	}
 	#endregion
 }
