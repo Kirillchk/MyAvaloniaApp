@@ -1,24 +1,18 @@
 namespace MyAvaloniaApp.Views;
 using System;
 using System.Net;
-using System.Threading;
 using Avalonia.Controls;
-using Tmds.DBus.Protocol;
 using System.Text.RegularExpressions;
-using Avalonia.Data.Converters;
 using System.IO;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Net.Http.Json;
 using System.Text.Json;
-using LiveChartsCore;
 using LiveChartsCore.SkiaSharpView;
-using MyAvaloniaApp.ViewModels;
 using System.Linq;
 using System.Collections.Generic;
 using LiveChartsCore.SkiaSharpView.Painting;
 using Avalonia.Threading;
-
 public partial class MainWindow : Window
 {
 	private DispatcherTimer timer;
@@ -58,6 +52,9 @@ public partial class MainWindow : Window
 				ClientView.IsVisible = false;
 				ServerView.IsVisible = false;
 				LogView.IsVisible = true;
+			};
+			DownloadLogButton.Click += (s, e) => {
+				File.WriteAllText("logs.txt", FullLogOutput.Text);
 			};
 			bool isServerOnline = false;
 			StartServerButton.Click += (s, e) => {
@@ -111,6 +108,9 @@ public partial class MainWindow : Window
 				RequestLogOutput.Text += 
 					$"\nMethod: {request.HttpMethod}\n" +
                     $"URL: {request.Url}\n";
+				FullLogOutput.Text += 
+					$"\nMethod: {request.HttpMethod}\n" +
+                    $"URL: {request.Url}\n";
 				string responseString = "Not suported";
 				zaprosov++;
 				chartValue++;
@@ -155,10 +155,13 @@ public partial class MainWindow : Window
 			responce.EnsureSuccessStatusCode();
 			string result = await responce.Content.ReadAsStringAsync();
 			ResponseOutput.Text += result;
+			FullLogOutput.Text += result;
 		} catch (Exception ex) {
 			ResponseOutput.Text += ex;
+			FullLogOutput.Text += ex;
 		}
 		ResponseOutput.Text += "\n";
+		FullLogOutput.Text += "\n";
 	}
 	async Task SendRequestPOST(string URL){
 		try {

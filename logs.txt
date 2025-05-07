@@ -1,0 +1,6 @@
+
+Method: GET
+URL: http://localhost:1234/
+
+requests in total:1
+total time 00:00:03
