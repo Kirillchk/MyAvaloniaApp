@@ -1,140 +1,212 @@
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\MyAvaloniaApp.exe
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\MyAvaloniaApp.deps.json
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\MyAvaloniaApp.runtimeconfig.json
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\MyAvaloniaApp.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\MyAvaloniaApp.pdb
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Base.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Controls.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.DesignerSupport.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Dialogs.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Markup.Xaml.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Markup.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Metal.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.MicroCom.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.OpenGL.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Vulkan.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Controls.ColorPicker.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Controls.DataGrid.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Desktop.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Diagnostics.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Fonts.Inter.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.FreeDesktop.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Native.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Remote.Protocol.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Skia.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Themes.Fluent.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Themes.Simple.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Win32.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.X11.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\CommunityToolkit.Mvvm.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\HarfBuzzSharp.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\MicroCom.Runtime.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\SkiaSharp.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\Tmds.DBus.Protocol.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\win-arm64\native\av_libglesv2.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\win-x64\native\av_libglesv2.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\win-x86\native\av_libglesv2.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\osx\native\libAvaloniaNative.dylib
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\osx\native\libHarfBuzzSharp.dylib
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\linux-arm\native\libSkiaSharp.so
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\linux-arm64\native\libSkiaSharp.so
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\linux-x64\native\libSkiaSharp.so
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\osx\native\libSkiaSharp.dylib
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\win-arm64\native\libSkiaSharp.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\win-x64\native\libSkiaSharp.dll
-D:\code\avalonia because why not\MyAvaloniaApp\bin\Debug\net9.0\runtimes\win-x86\native\libSkiaSharp.dll
-D:\code\avalonia because why not\MyAvaloniaApp\obj\Debug\net9.0\MyAvaloniaApp.csproj.AssemblyReference.cache
-D:\code\avalonia because why not\MyAvaloniaApp\obj\Debug\net9.0\Avalonia\Resources.Inputs.cache
-D:\code\avalonia because why not\MyAvaloniaApp\obj\Debug\net9.0\Avalonia\resources
-D:\code\avalonia because why not\MyAvaloniaApp\obj\Debug\net9.0\MyAvaloniaApp.GeneratedMSBuildEditorConfig.editorconfig
-D:\code\avalonia because why not\MyAvaloniaApp\obj\Debug\net9.0\MyAvaloniaApp.AssemblyInfoInputs.cache
-D:\code\avalonia because why not\MyAvaloniaApp\obj\Debug\net9.0\MyAvaloniaApp.AssemblyInfo.cs
-D:\code\avalonia because why not\MyAvaloniaApp\obj\Debug\net9.0\MyAvaloniaApp.csproj.CoreCompileInputs.cache
-D:\code\avalonia because why not\MyAvaloniaApp\obj\Debug\net9.0\Avalonia\MyAvaloniaApp.dll
-D:\code\avalonia because why not\MyAvaloniaApp\obj\Debug\net9.0\Avalonia\MyAvaloniaApp.pdb
-D:\code\avalonia because why not\MyAvaloniaApp\obj\Debug\net9.0\refint\Avalonia\MyAvaloniaApp.dll
-D:\code\avalonia because why not\MyAvaloniaApp\obj\Debug\net9.0\MyAvalon.9DF80BA1.Up2Date
-D:\code\avalonia because why not\MyAvaloniaApp\obj\Debug\net9.0\MyAvaloniaApp.genruntimeconfig.cache
-D:\code\avalonia because why not\MyAvaloniaApp\obj\Debug\net9.0\ref\MyAvaloniaApp.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\MyAvaloniaApp.exe
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\MyAvaloniaApp.deps.json
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\MyAvaloniaApp.runtimeconfig.json
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\MyAvaloniaApp.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\MyAvaloniaApp.pdb
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Base.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Controls.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.DesignerSupport.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Dialogs.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Markup.Xaml.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Markup.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Metal.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.MicroCom.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.OpenGL.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Vulkan.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Controls.ColorPicker.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Controls.DataGrid.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Desktop.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Diagnostics.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Fonts.Inter.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.FreeDesktop.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Native.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Remote.Protocol.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Skia.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Themes.Fluent.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Themes.Simple.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.Win32.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Avalonia.X11.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\CommunityToolkit.Mvvm.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\HarfBuzzSharp.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\MicroCom.Runtime.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\SkiaSharp.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\Tmds.DBus.Protocol.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\win-arm64\native\av_libglesv2.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\win-x64\native\av_libglesv2.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\win-x86\native\av_libglesv2.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\osx\native\libAvaloniaNative.dylib
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\osx\native\libHarfBuzzSharp.dylib
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\linux-arm\native\libSkiaSharp.so
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\linux-arm64\native\libSkiaSharp.so
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\linux-x64\native\libSkiaSharp.so
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\osx\native\libSkiaSharp.dylib
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\win-arm64\native\libSkiaSharp.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\win-x64\native\libSkiaSharp.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\runtimes\win-x86\native\libSkiaSharp.dll
-E:\code\MyAvaloniaApp\obj\Debug\net9.0\MyAvaloniaApp.csproj.AssemblyReference.cache
-E:\code\MyAvaloniaApp\obj\Debug\net9.0\Avalonia\Resources.Inputs.cache
-E:\code\MyAvaloniaApp\obj\Debug\net9.0\Avalonia\resources
-E:\code\MyAvaloniaApp\obj\Debug\net9.0\MyAvaloniaApp.GeneratedMSBuildEditorConfig.editorconfig
-E:\code\MyAvaloniaApp\obj\Debug\net9.0\MyAvaloniaApp.AssemblyInfoInputs.cache
-E:\code\MyAvaloniaApp\obj\Debug\net9.0\MyAvaloniaApp.AssemblyInfo.cs
-E:\code\MyAvaloniaApp\obj\Debug\net9.0\MyAvaloniaApp.csproj.CoreCompileInputs.cache
-E:\code\MyAvaloniaApp\obj\Debug\net9.0\MyAvaloniaApp.sourcelink.json
-E:\code\MyAvaloniaApp\obj\Debug\net9.0\Avalonia\MyAvaloniaApp.dll
-E:\code\MyAvaloniaApp\obj\Debug\net9.0\Avalonia\MyAvaloniaApp.pdb
-E:\code\MyAvaloniaApp\obj\Debug\net9.0\refint\Avalonia\MyAvaloniaApp.dll
-E:\code\MyAvaloniaApp\obj\Debug\net9.0\MyAvalon.9DF80BA1.Up2Date
-E:\code\MyAvaloniaApp\obj\Debug\net9.0\MyAvaloniaApp.genruntimeconfig.cache
-E:\code\MyAvaloniaApp\obj\Debug\net9.0\ref\MyAvaloniaApp.dll
-D:\code\avalonia because why not\MyAvaloniaApp\obj\Debug\net9.0\MyAvaloniaApp.sourcelink.json
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\LiveChartsCore.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\LiveChartsCore.SkiaSharpView.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\LiveChartsCore.SkiaSharpView.Avalonia.dll
-E:\code\MyAvaloniaApp\bin\Debug\net9.0\SkiaSharp.HarfBuzz.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/MyAvaloniaApp.exe
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/MyAvaloniaApp.deps.json
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/MyAvaloniaApp.runtimeconfig.json
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/MyAvaloniaApp.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/MyAvaloniaApp.pdb
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Base.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Controls.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.DesignerSupport.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Dialogs.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Markup.Xaml.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Markup.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Metal.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.MicroCom.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.OpenGL.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Vulkan.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Controls.ColorPicker.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Controls.DataGrid.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Desktop.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Diagnostics.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Fonts.Inter.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.FreeDesktop.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Native.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Remote.Protocol.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Skia.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Themes.Fluent.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Themes.Simple.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Win32.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.X11.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/CommunityToolkit.Mvvm.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/HarfBuzzSharp.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/MicroCom.Runtime.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/SkiaSharp.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/Tmds.DBus.Protocol.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-arm64/native/av_libglesv2.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-x64/native/av_libglesv2.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-x86/native/av_libglesv2.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/osx/native/libAvaloniaNative.dylib
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-arm/native/libHarfBuzzSharp.so
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-arm64/native/libHarfBuzzSharp.so
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-x64/native/libHarfBuzzSharp.so
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/osx/native/libHarfBuzzSharp.dylib
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-arm64/native/libHarfBuzzSharp.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-x64/native/libHarfBuzzSharp.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-x86/native/libHarfBuzzSharp.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-arm/native/libSkiaSharp.so
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-arm64/native/libSkiaSharp.so
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-musl-x64/native/libSkiaSharp.so
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-x64/native/libSkiaSharp.so
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/osx/native/libSkiaSharp.dylib
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-arm64/native/libSkiaSharp.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-x64/native/libSkiaSharp.dll
+D:/code/avalonia because why not/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-x86/native/libSkiaSharp.dll
+D:/code/avalonia because why not/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.csproj.AssemblyReference.cache
+D:/code/avalonia because why not/MyAvaloniaApp/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache
+D:/code/avalonia because why not/MyAvaloniaApp/obj/Debug/net9.0/Avalonia/resources
+D:/code/avalonia because why not/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.GeneratedMSBuildEditorConfig.editorconfig
+D:/code/avalonia because why not/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.AssemblyInfoInputs.cache
+D:/code/avalonia because why not/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.AssemblyInfo.cs
+D:/code/avalonia because why not/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.csproj.CoreCompileInputs.cache
+D:/code/avalonia because why not/MyAvaloniaApp/obj/Debug/net9.0/Avalonia/MyAvaloniaApp.dll
+D:/code/avalonia because why not/MyAvaloniaApp/obj/Debug/net9.0/Avalonia/MyAvaloniaApp.pdb
+D:/code/avalonia because why not/MyAvaloniaApp/obj/Debug/net9.0/refint/Avalonia/MyAvaloniaApp.dll
+D:/code/avalonia because why not/MyAvaloniaApp/obj/Debug/net9.0/MyAvalon.9DF80BA1.Up2Date
+D:/code/avalonia because why not/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.genruntimeconfig.cache
+D:/code/avalonia because why not/MyAvaloniaApp/obj/Debug/net9.0/ref/MyAvaloniaApp.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/MyAvaloniaApp.exe
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/MyAvaloniaApp.deps.json
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/MyAvaloniaApp.runtimeconfig.json
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/MyAvaloniaApp.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/MyAvaloniaApp.pdb
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Base.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Controls.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.DesignerSupport.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Dialogs.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Markup.Xaml.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Markup.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Metal.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.MicroCom.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.OpenGL.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Vulkan.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Controls.ColorPicker.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Controls.DataGrid.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Desktop.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Diagnostics.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Fonts.Inter.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.FreeDesktop.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Native.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Remote.Protocol.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Skia.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Themes.Fluent.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Themes.Simple.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Win32.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.X11.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/CommunityToolkit.Mvvm.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/HarfBuzzSharp.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/MicroCom.Runtime.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/SkiaSharp.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/Tmds.DBus.Protocol.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-arm64/native/av_libglesv2.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-x64/native/av_libglesv2.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-x86/native/av_libglesv2.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/osx/native/libAvaloniaNative.dylib
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-arm/native/libHarfBuzzSharp.so
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-arm64/native/libHarfBuzzSharp.so
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-x64/native/libHarfBuzzSharp.so
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/osx/native/libHarfBuzzSharp.dylib
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-arm64/native/libHarfBuzzSharp.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-x64/native/libHarfBuzzSharp.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-x86/native/libHarfBuzzSharp.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-arm/native/libSkiaSharp.so
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-arm64/native/libSkiaSharp.so
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-musl-x64/native/libSkiaSharp.so
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-x64/native/libSkiaSharp.so
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/osx/native/libSkiaSharp.dylib
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-arm64/native/libSkiaSharp.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-x64/native/libSkiaSharp.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-x86/native/libSkiaSharp.dll
+E:/code/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.csproj.AssemblyReference.cache
+E:/code/MyAvaloniaApp/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache
+E:/code/MyAvaloniaApp/obj/Debug/net9.0/Avalonia/resources
+E:/code/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.GeneratedMSBuildEditorConfig.editorconfig
+E:/code/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.AssemblyInfoInputs.cache
+E:/code/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.AssemblyInfo.cs
+E:/code/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.csproj.CoreCompileInputs.cache
+E:/code/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.sourcelink.json
+E:/code/MyAvaloniaApp/obj/Debug/net9.0/Avalonia/MyAvaloniaApp.dll
+E:/code/MyAvaloniaApp/obj/Debug/net9.0/Avalonia/MyAvaloniaApp.pdb
+E:/code/MyAvaloniaApp/obj/Debug/net9.0/refint/Avalonia/MyAvaloniaApp.dll
+E:/code/MyAvaloniaApp/obj/Debug/net9.0/MyAvalon.9DF80BA1.Up2Date
+E:/code/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.genruntimeconfig.cache
+E:/code/MyAvaloniaApp/obj/Debug/net9.0/ref/MyAvaloniaApp.dll
+D:/code/avalonia because why not/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.sourcelink.json
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/LiveChartsCore.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/LiveChartsCore.SkiaSharpView.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/LiveChartsCore.SkiaSharpView.Avalonia.dll
+E:/code/MyAvaloniaApp/bin/Debug/net9.0/SkiaSharp.HarfBuzz.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/MyAvaloniaApp
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/MyAvaloniaApp.deps.json
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/MyAvaloniaApp.runtimeconfig.json
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/MyAvaloniaApp.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/MyAvaloniaApp.pdb
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Base.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Controls.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.DesignerSupport.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Dialogs.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Markup.Xaml.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Markup.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Metal.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.MicroCom.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.OpenGL.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Vulkan.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Controls.ColorPicker.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Controls.DataGrid.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Desktop.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Diagnostics.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Fonts.Inter.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.FreeDesktop.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Native.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Remote.Protocol.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Skia.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Themes.Fluent.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Themes.Simple.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.Win32.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Avalonia.X11.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/CommunityToolkit.Mvvm.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/HarfBuzzSharp.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/LiveChartsCore.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/LiveChartsCore.SkiaSharpView.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/LiveChartsCore.SkiaSharpView.Avalonia.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/MicroCom.Runtime.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/SkiaSharp.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/SkiaSharp.HarfBuzz.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/Tmds.DBus.Protocol.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-arm64/native/av_libglesv2.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-x64/native/av_libglesv2.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-x86/native/av_libglesv2.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/osx/native/libAvaloniaNative.dylib
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-arm/native/libHarfBuzzSharp.so
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-arm64/native/libHarfBuzzSharp.so
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-x64/native/libHarfBuzzSharp.so
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/osx/native/libHarfBuzzSharp.dylib
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-arm64/native/libHarfBuzzSharp.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-x64/native/libHarfBuzzSharp.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-x86/native/libHarfBuzzSharp.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-arm/native/libSkiaSharp.so
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-arm64/native/libSkiaSharp.so
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-musl-x64/native/libSkiaSharp.so
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/linux-x64/native/libSkiaSharp.so
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/osx/native/libSkiaSharp.dylib
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-arm64/native/libSkiaSharp.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-x64/native/libSkiaSharp.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/bin/Debug/net9.0/runtimes/win-x86/native/libSkiaSharp.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.csproj.AssemblyReference.cache
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/obj/Debug/net9.0/Avalonia/resources
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.AssemblyInfoInputs.cache
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.AssemblyInfo.cs
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.csproj.CoreCompileInputs.cache
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.sourcelink.json
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/obj/Debug/net9.0/Avalonia/MyAvaloniaApp.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/obj/Debug/net9.0/Avalonia/MyAvaloniaApp.pdb
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/obj/Debug/net9.0/refint/Avalonia/MyAvaloniaApp.dll
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/obj/Debug/net9.0/MyAvalon.9DF80BA1.Up2Date
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/obj/Debug/net9.0/MyAvaloniaApp.genruntimeconfig.cache
+/home/kirillchk/Desktop/Code/MyAvaloniaApp/obj/Debug/net9.0/ref/MyAvaloniaApp.dll
